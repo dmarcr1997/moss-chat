@@ -77,7 +77,7 @@ export default function Home() {
             onKeyDown={handleSubmit}
           />
           <button
-            onClick="{callGetResponse}"
+            onClick={callGetResponse}
             className="w-[15%] bg-blue-500 px-4 py-2 rounded-r"
           >
             send
